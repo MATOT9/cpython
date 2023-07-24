@@ -1,0 +1,2 @@
+../configure --enable-optimizations --with-lto=full --prefix=$HOME/Python-3.11.4 --enable-ipv6 --enable-shared --enable-loadable-sqlite-extensions --without-doc-strings --enable-profiling
+
