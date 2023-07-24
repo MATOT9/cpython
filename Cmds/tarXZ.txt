@@ -1,0 +1,10 @@
+Compress using lzma (xz):
+	tar cv Python-3.11.4 | xz -9ze > dir.tar.xz
+	tar cv Python-3.11.4 | xz -9ze -T0 > dir.tar.xz
+	XZ_OPT=-9e tar -cJvf dir.tar.xz <dir>
+	xz -v9eT0 filename
+
+Extract archive:
+	tar -xvf file.tar.xz
+	tar -xvf file.tar.xz -C <output dir>
+

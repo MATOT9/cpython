@@ -1,0 +1,2 @@
+../configure --enable-optimizations --with-lto=full --enable-ipv6 --enable-shared --enable-loadable-sqlite-extensions --without-doc-strings --enable-profiling --without-ensurepip
+
